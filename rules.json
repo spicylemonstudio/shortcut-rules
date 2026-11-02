@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "minAppVersionCode": 6,
+  "rules": [
+    {
+      "packageName": "com.instagram.android",
+      "contentName": "릴스",
+      "visibleViewIds": ["com.instagram.android:id/clips_viewer_view_pager"],
+      "exitButtonLabels": []
+    },
+    {
+      "packageName": "com.google.android.youtube",
+      "contentName": "쇼츠",
+      "visibleViewIds": ["com.google.android.youtube:id/reel_watch_player"],
+      "exitButtonLabels": []
+    },
+    {
+      "packageName": "com.nhn.android.search",
+      "contentName": "클립",
+      "visibleViewIds": [
+        "com.nhn.android.search:id/clip_task_layout",
+        "com.nhn.android.search:id/clip_container_tablayout_tab_textview"
+      ],
+      "exitButtonLabels": []
+    },
+    {
+      "packageName": "com.kakao.talk",
+      "contentName": "숏폼",
+      "visibleViewIds": [
+        "com.kakao.talk:id/sft_player_gradient_top",
+        "com.kakao.talk:id/sft_bottom_layout_parent"
+      ],
+      "exitButtonLabels": ["오픈채팅", "지금 탭"]
+    }
+  ]
+}
