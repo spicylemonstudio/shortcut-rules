@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "minAppVersionCode": 6,
+  "version": 2,
+  "minAppVersionCode": 7,
   "rules": [
     {
       "packageName": "com.instagram.android",
@@ -28,7 +28,8 @@
       "contentName": "숏폼",
       "visibleViewIds": [
         "com.kakao.talk:id/sft_player_gradient_top",
-        "com.kakao.talk:id/sft_bottom_layout_parent"
+        "com.kakao.talk:id/sft_bottom_layout_parent",
+        "com.kakao.talk.shortform_presentation:id/feedAdLayout"
       ],
       "exitButtonLabels": ["오픈채팅", "지금 탭"]
     }
